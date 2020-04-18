@@ -1,0 +1,17 @@
+{
+    "text": "水印",
+    "font": "wqy-microhei.ttc",
+    "fontsize": 40,
+    "input": "bg.jpg",
+    "output": "out.jpg",
+    "fill": [
+        0,
+        0,
+        0
+    ],
+    "pos": [
+        680,
+        520
+    ],
+    "wordspacing": 40
+}

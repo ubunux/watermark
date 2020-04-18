@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    label { float: left; width: 4em; margin-right: 1em; text-align: right; }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Watermark</title>
+</head>
+    <body>
+        <h1>Please Input watermark text</h1>
+        <form action="/" method="post">
+            <p><label>Text</label><input name="text"><button type="process">WaterMark</button></p>
+        </form>
+        <p style="color:red">{{ get_flashed_messages()[0] }}</p>
+    </body>
+</html>
